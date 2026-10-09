@@ -1,0 +1,7 @@
+id=slowcharge
+name=Slow Charge 限流慢充
+version=3.0
+versionCode=3
+author=Aonzey
+description=开机自动限制充电电流并支持按电量停充，降低快充发热。配置见 /data/adb/modules/slowcharge/option.txt，日志见 log.txt
+minAPatch=10000

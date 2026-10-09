@@ -7,6 +7,5 @@ MODDIR=${0%/*}
 
 sleep 8
 log "===== boot-completed 补写 ====="
-init_stop_switch
+[ "$STOP_MODE" = "suspend" ] && init_stop_switch
 apply
-stop_logic
